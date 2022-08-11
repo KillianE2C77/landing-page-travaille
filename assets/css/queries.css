@@ -1,168 +1,282 @@
-/* ----Responsive Design----- /
+/*----Responsive Design----- */
 
-@media (max-width: 767px)
-.test {
-  padding: 15px 32px;
-  margin: 4px 2px;
+@media screen and (max-width: 425px) {
+  /*---------------FONTS-------------*/
+  .text-6xl {
+    font-size: 3.75rem;
+  }
+
+  .margin {
+    margin: -50px;
+  }
+  .background-cover {
+    background-size: cover;
+  }
+
+  .imgg {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .opacity {
+    opacity: 0.1;
+  }
+
+  .opacity-fin {
+    opacity: 0.9;
+  }
+
+  .image2 {
+    width: 200px;
+    height: 155px;
+    margin-top: 250px;
+    margin-right: 0;
+  }
+  .text1 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+  .text2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .text3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .px-5 {
+    padding-left: 40px;
+    padding: 15rem 32px;
+    margin: 15rem 2px;
+  }
+
+  .u-section-2 {
+    position: relative;
+    top: 20px;
+  }
+
+  .widthh {
+    max-width: 100%;
+  }
+
+  .width1 {
+    width: 340px;
+  }
+
+  .border {
+    border: 15px solid transparent;
+  }
+
+  .fin-image {
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  .fin-image-taille {
+    width: 320px;
+    height: 255px;
+    margin-left: 8px;
+  }
+
+  .fin-image-milieu {
+    width: 254px;
+    margin-bottom: 183px;
+  }
+
+  .fin-image-milieu2 {
+    min-height: 300px;
+    width: 566px;
+    margin: -477px auto 0 287px;
+  }
+
+  .test5 {
+    height: 240px;
+    margin-top: 288px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  /* ---------Flex------------------ */
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  /* ---------Color-------------- */
+
+  .bg-gray {
+    background-color: #292d33;
+  }
+
+  .bg-orange {
+    background-color: #e67b13;
+  }
+
+  .bg-black {
+    background-color: #1d2228;
+  }
+
+  .bg-black2 {
+    background-color: #111111;
+  }
+
+  .bg-black3 {
+    background-color: #292d33;
+  }
+
+  .black {
+    color: #111111;
+  }
+
+  .bg-orange2 {
+    background-color: #e67b13 !important;
+  }
+
+  .bg-white {
+    background-color: #ffff;
+  }
+
+  .text-red {
+    color: red;
+  }
+
+  .bg-image1 {
+    background-image: linear-gradient(
+        0deg,
+        rgba(29, 34, 40, 0.65),
+        rgba(29, 34, 40, 0.65)
+      ),
+      url(..//img/avion.jpeg);
+  }
+
+  /*---------Height and Width----------*/
+
+  .height1 {
+    min-width: 408px;
+  }
+
+  .width10 {
+    min-width: 855px;
+  }
+  .height2 {
+    min-height: 816px;
+  }
+  .height3 {
+    min-height: 361px;
+  }
+
+  .height4 {
+    min-height: 415px;
+  }
+  .height5 {
+    min-width: 100%;
+  }
+
+  .h-447 {
+    height: 447px;
+  }
+
+  .w-427 {
+    height: 427px;
+  }
+
+  .min-h-416 {
+    min-height: 416px;
+  }
+
+  .min-14 {
+    margin-left: -50px;
+  }
+
+  .min-w-100 {
+    min-width: 100px;
+  }
+
+  .widthh {
+    max-width: 100%;
+  }
+
+  .width1 {
+    width: 340px;
+  }
+
+  /* --------------Marging------------ */
+
+  .mt--15 {
+    margin-top: -15px;
+  }
+
+  .mr-6 {
+    margin-top: 6px;
+  }
+
+  .mr-6 {
+    margin-top: 6px;
+  }
+
+  .m-12 {
+    margin: 3px 20px 0 0;
+  }
+
+  .mt-203 {
+    margin-top: -203px;
+  }
+
+  .ml-50 {
+    margin-left: -50px;
+  }
+
+  .tt {
+    width: 203px;
+    margin-top: 0;
+    margin-left: 174px;
+  }
+}
+
+/* --------------Padding------------- */
+.pt-10 {
+  padding-left: 40px;
+}
+.pl-1.5 {
+  padding-left: 6px;
 }
 
 .px-5 {
-  padding-left: 9px;
-  padding: 15px 32px;
-  margin: 150px 2px;
+  padding-left: 40px;
+  padding: 15rem 32px;
+  margin: 15rem 2px;
 }
 
-.widthh {
-  max-width: 100%;
-}
-
-
-@media screen and (max-width: 425px) {
-    /---------------FONTS-------------/
-
-    .imgg {
-      width: 200px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .bg-orange {
-      background-color: #e67b13;
-    }
-
-    .bg-black {
-      background-color: #1d2228
-    }
-
-    .px-5 {
-      padding-left: 40px;
-      padding: 15rem 32px;
-      margin: 15rem 2px;
-    }
-
-    .u-section-2 {
-      position: relative;
-      top: 20px;
-    }
-
-    .widthh {
-      max-width: 100%;
-    }
-
-    .sm-text-xs {
-      font-size: 0.75rem; / 12px /
-      line-height: 1rem; / 16px /
-    }
-    / #desktop {
-      display: none;
-    } /
-
-    / ---------Flex------------------ /
-
-    .sm-flex {
-      display: flex;
-    }
-    .sm-justify-between {
-      justify-content: space-between;
-    }
-    .sm-justify-center {
-      justify-content: center;
-    }
-    .sm-justify-end {
-      justify-content: flex-end;
-    }
-    .sm-justify-around {
-      justify-content: space-around;
-    }
-    .sm-justify-items-end {
-      justify-items: end;
-    }
-    .sm-justify-start {
-      justify-content: flex-start;
-    }
-    .sm-justify-around {
-      justify-content: space-around;
-    }
-    .sm-justify-items-center {
-      justify-items: center;
-    }
-    .sm-flex-grow {
-      flex-grow: initial;
-    }
-    .sm-flex-row {
-      flex-direction: row;
-    }
-    .sm-justify-evenly {
-      justify-content: space-evenly;
-    }
-    .sm-flex-col {
-      flex-direction: column;
-    }
-
-    / ---------Background-------------- */
-
-.sm-bg-purple {
-  background-color: purple;
-}
-/---------Height and Width----------/ .sm-h-60 {
-  height: 15rem;
-}
-.sm-h-20 {
-  height: 5rem; /* 64px /
-    }
-    .sm-h-auto {
-      height: 3vh;
-    }
-    .sm-w-20 {
-      width: 15vw;
-    }
-
-    .sm-w-full {
-      width: 100%;
-    }
-
-    .sm-w-20 {
-      width: 19rem;
-    }
-    / --------------Marging------------ /
-    .sm-margin {
-      margin: 32px auto 0 0;
-    }
-    .sm-ml-8 {
-      margin-left: 2rem;
-    }
-
-    .sm-mr-8 {
-      margin-right: 2rem;
-    }
-
-    .sm-m-0 {
-      margin: 0px;
-    }
-
-    .sm-mt-12 {
-      margin-top: 3rem;
-    }
-
-    .sm-mb-4 {
-      margin-bottom: 2rem;
-    }
-
-    / --------------Padding------------- /
-
-    .sm-pt-4 {
-      padding-top: 1.5rem;
-    }
-
-    .sm-p-0 {
-      padding: 0px;
-    }
-
-    .sm-height {
-      min-height: 100vh;
-    }
-    / .sm-pb-1 {
-      padding-bottom: 0.5rem;
-    } */
+.px-5 {
+  padding-left: 40px;
+  padding: 15rem 32px;
+  margin: 15rem 2px;
 }
