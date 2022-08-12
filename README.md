@@ -13,3 +13,10 @@ Le projet landing page est un projet ou l'on dois faire exactement le même desi
 * nicepage.com (réference)
 ## Author
 * Killian
+
+## GTMetrix Rank
+**Performance **
+*78%
+**Structure **
+*89%
+*Rank : B
