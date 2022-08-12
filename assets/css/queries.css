@@ -1,4 +1,4 @@
-/*----Responsive Design----- */
+/*----Responsive Design Mobile----- */
 
 @media screen and (max-width: 425px) {
   /*---------------FONTS-------------*/
@@ -34,30 +34,6 @@
     margin-top: 250px;
     margin-right: 0;
   }
-  .text1 {
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-  }
-
-  .text2 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.2;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .text3 {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
 
   .px-5 {
     padding-left: 40px;
@@ -76,44 +52,6 @@
 
   .width1 {
     width: 340px;
-  }
-
-  .border {
-    border: 15px solid transparent;
-  }
-
-  .fin-image {
-    object-fit: cover;
-    display: block;
-    vertical-align: middle;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-  }
-
-  .fin-image-taille {
-    width: 320px;
-    height: 255px;
-    margin-left: 8px;
-  }
-
-  .fin-image-milieu {
-    width: 254px;
-    margin-bottom: 183px;
-  }
-
-  .fin-image-milieu2 {
-    min-height: 300px;
-    width: 566px;
-    margin: -477px auto 0 287px;
-  }
-
-  .test5 {
-    height: 240px;
-    margin-top: 288px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
   }
 
   /* ---------Flex------------------ */
@@ -164,10 +102,6 @@
     background-color: #ffff;
   }
 
-  .text-red {
-    color: red;
-  }
-
   .bg-image1 {
     background-image: linear-gradient(
         0deg,
@@ -175,16 +109,26 @@
         rgba(29, 34, 40, 0.65)
       ),
       url(..//img/avion.jpeg);
+    min-height: 525px;
+  }
+
+  .bg-image2 {
+    background-image: url(..//img/avion.jpeg);
+    min-height: 525px;
   }
 
   /*---------Height and Width----------*/
 
-  .height1 {
-    min-width: 408px;
+  .width10 {
+    min-width: 855px;
   }
 
   .width10 {
     min-width: 855px;
+  }
+
+  .height10 {
+    min-height: 408px;
   }
   .height2 {
     min-height: 816px;
@@ -195,6 +139,10 @@
 
   .height4 {
     min-height: 415px;
+  }
+
+  .height525 {
+    min-height: 525px;
   }
   .height5 {
     min-width: 100%;
@@ -228,6 +176,14 @@
     width: 340px;
   }
 
+  .width336 {
+    width: 336px;
+  }
+
+  .width338 {
+    width: 338px;
+  }
+
   /* --------------Marging------------ */
 
   .mt--15 {
@@ -252,6 +208,322 @@
 
   .ml-50 {
     margin-left: -50px;
+  }
+  .ml-50-1 {
+    margin-left: 50px;
+  }
+  .mt-19 {
+    margin-top: 19px;
+  }
+
+  .ml-52 {
+    margin-left: 52px;
+  }
+
+  .ml-51 {
+    margin-left: 51px;
+  }
+  .ml-52 {
+    margin-left: 52px;
+  }
+  .mr-52 {
+    margin-right: 52px;
+  }
+
+  .mt-21 {
+    margin-top: 21px;
+  }
+
+  .u-section-3 {
+    width: 336px;
+    margin-top: 21px;
+    margin-left: 52px;
+    margin-right: 52px;
+  }
+
+  .tt {
+    width: 203px;
+    margin-top: 0;
+    margin-left: 174px;
+  }
+}
+
+/* --------------Padding------------- */
+.pt-10 {
+  padding-left: 40px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pr-50 {
+  padding-right: 54px;
+}
+.pl-1.5 {
+  padding-left: 6px;
+}
+
+.px-5 {
+  padding-left: 40px;
+  padding: 15rem 32px;
+  margin: 15rem 2px;
+}
+
+.px-5 {
+  padding-left: 40px;
+  padding: 15rem 32px;
+  margin: 15rem 2px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pr-50 {
+  padding-right: 54px;
+}
+
+/*----Responsive Design Tablette----- */
+@media screen and (max-width: 768px) {
+  /*---------------FONTS-------------*/
+  .text-6xl {
+    font-size: 3.75rem;
+  }
+
+  .margin {
+    margin: -50px;
+  }
+  .background-cover {
+    background-size: cover;
+  }
+
+  .imgg {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .opacity {
+    opacity: 0.1;
+  }
+
+  .opacity-fin {
+    opacity: 0.9;
+  }
+
+  .image2 {
+    width: 200px;
+    height: 155px;
+    margin-top: 250px;
+    margin-right: 0;
+  }
+
+  .px-5 {
+    padding-left: 40px;
+    padding: 15rem 32px;
+    margin: 15rem 2px;
+  }
+
+  .u-section-2 {
+    position: relative;
+    top: 20px;
+  }
+
+  .widthh {
+    max-width: 100%;
+  }
+
+  .width1 {
+    width: 340px;
+  }
+
+  /* ---------Flex------------------ */
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  /* ---------Color-------------- */
+
+  .bg-gray {
+    background-color: #292d33;
+  }
+
+  .bg-orange {
+    background-color: #e67b13;
+  }
+
+  .bg-black {
+    background-color: #1d2228;
+  }
+
+  .bg-black2 {
+    background-color: #111111;
+  }
+
+  .bg-black3 {
+    background-color: #292d33;
+  }
+
+  .black {
+    color: #111111;
+  }
+
+  .bg-orange2 {
+    background-color: #e67b13 !important;
+  }
+
+  .bg-white {
+    background-color: #ffff;
+  }
+
+  .bg-image1 {
+    background-image: linear-gradient(
+        0deg,
+        rgba(29, 34, 40, 0.65),
+        rgba(29, 34, 40, 0.65)
+      ),
+      url(..//img/avion.jpeg);
+    min-height: 525px;
+  }
+
+  .bg-image2 {
+    background-image: url(..//img/avion.jpeg);
+    min-height: 525px;
+  }
+
+  /*---------Height and Width----------*/
+
+  .width10 {
+    min-width: 855px;
+  }
+
+  .width10 {
+    min-width: 855px;
+  }
+
+  .height10 {
+    min-height: 408px;
+  }
+  .height2 {
+    min-height: 816px;
+  }
+  .height3 {
+    min-height: 361px;
+  }
+
+  .height4 {
+    min-height: 415px;
+  }
+
+  .height525 {
+    min-height: 525px;
+  }
+  .height5 {
+    min-width: 100%;
+  }
+
+  .h-447 {
+    height: 447px;
+  }
+
+  .w-427 {
+    height: 427px;
+  }
+
+  .min-h-416 {
+    min-height: 416px;
+  }
+
+  .min-14 {
+    margin-left: -50px;
+  }
+
+  .min-w-100 {
+    min-width: 100px;
+  }
+
+  .widthh {
+    max-width: 100%;
+  }
+
+  .width1 {
+    width: 340px;
+  }
+
+  .width336 {
+    width: 336px;
+  }
+
+  .width338 {
+    width: 338px;
+  }
+
+  /* --------------Marging------------ */
+
+  .mt--15 {
+    margin-top: -15px;
+  }
+
+  .mr-6 {
+    margin-top: 6px;
+  }
+
+  .mr-6 {
+    margin-top: 6px;
+  }
+
+  .m-12 {
+    margin: 3px 20px 0 0;
+  }
+
+  .mt-203 {
+    margin-top: -203px;
+  }
+
+  .ml-50 {
+    margin-left: -50px;
+  }
+  .ml-50-1 {
+    margin-left: 50px;
+  }
+  .mt-19 {
+    margin-top: 19px;
+  }
+
+  .ml-52 {
+    margin-left: 52px;
+  }
+
+  .ml-51 {
+    margin-left: 51px;
+  }
+  .ml-52 {
+    margin-left: 52px;
+  }
+  .mr-52 {
+    margin-right: 52px;
+  }
+
+  .mt-21 {
+    margin-top: 21px;
+  }
+
+  .u-section-3 {
+    width: 336px;
+    margin-top: 21px;
+    margin-left: 52px;
+    margin-right: 52px;
   }
 
   .tt {
@@ -279,4 +551,8 @@
   padding-left: 40px;
   padding: 15rem 32px;
   margin: 15rem 2px;
+}
+
+.pl-50 {
+  padding-left: 50px;
 }
